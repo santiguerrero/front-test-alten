@@ -1,0 +1,32 @@
+<div class="d-flex w-100 gap-2 p-2 flex-column">
+    <div class="d-flex justify-content-end gap-1">
+        Post pubblicato da:
+        <span class="font_italic" >
+            {{data.user.name}}
+            
+        </span>
+        Alias:
+        <span class="font_italic" >
+            {{data.user.username}}
+        </span>
+    </div>
+
+    <div class="d-flex justify-content-center w-100">
+        <h2 appFirstLetterCapitalize> {{ data.titlePost }}</h2>
+
+    </div>
+
+    <div class="d-flex w-100" style="text-align: center;">
+      
+        <h5 appFirstLetterCapitalize>
+            {{data.bodyPost}}
+        </h5>
+
+    </div>
+
+
+</div>
+
+<mat-dialog-actions align="end">
+    <button color="warn" mat-raised-button mat-dialog-close>Chiudere</button>
+</mat-dialog-actions>

@@ -5,20 +5,15 @@ import { AfterViewInit, Directive, ElementRef, OnInit } from '@angular/core';
 })
 export class FirstLetterCapitalizeDirective implements AfterViewInit {
 
-  constructor(private elementRef: ElementRef<HTMLElement>) { }
-  ngAfterViewInit(): void {
+  constructor(private el: ElementRef) {}
 
-    const text = this.elementRef.nativeElement.textContent;
-    
+  ngAfterViewInit() {
+    const text = this.el.nativeElement.innerText.trim();
     if (text) {
-      const capitalizedText = this.capitalizeFirstWord(text);
-      this.elementRef.nativeElement.textContent = capitalizedText;
+      const words = text.split(' ');
+      const capitalizedFirstWord = words[0].charAt(0).toUpperCase() + words[0].slice(1);
+      this.el.nativeElement.innerText = capitalizedFirstWord + (words.length > 1 ? ' ' + words.slice(1).join(' ') : '');
     }
-
-  }
-
-  capitalizeFirstWord(text: string): string {
-    return text.replace(/\b\w/g, (char) => char.toUpperCase());
   }
 
 }

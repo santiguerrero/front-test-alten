@@ -1,13 +1,22 @@
+<ng-container *ngIf="!postsFiltered || postsFiltered.length == 0">
+    <div class="box_progress">
+        <mat-progress-bar color="warn" mode="indeterminate"></mat-progress-bar>
+    </div>
+
+</ng-container>
+
 <div class="d-flex w-100 flex-column p-2">
 
     <div class="d-flex justify-content-between w-100 align-items-start">
         <div class="d-flex search w-75 align-items-center">
             <mat-form-field class="d-flex w-100">
                 <mat-label>Cerca</mat-label>
-                <input type="text" matInput #searchPosts placeholder="Cerca post" name="search_posts">
+                <input type="text" matInput #searchpostsFiltered placeholder="Cerca post" name="search_postsFiltered">
             </mat-form-field>
 
         </div>
+
+       
 
         <div class="d-flex view_type align-items-center">
             <mat-button-toggle-group name="view_type" [(ngModel)]="valueType">
@@ -20,8 +29,14 @@
         </div>
     </div>
 
+    <div class="d-flex p-1">
+        <span style="font-weight: 500;">
+            Elementi trovati: {{postsFiltered.length}}
+        </span>
+    </div>
+
     <div class="d-flex w-100">
-        <app-view-posts [posts]="posts" [users]="users" class="d-flex w-100" [view]="valueType"></app-view-posts>
+        <app-view-posts [posts]="postsFiltered" [users]="users" class="d-flex w-100" [view]="valueType"></app-view-posts>
     </div>
 
 </div>

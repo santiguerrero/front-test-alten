@@ -1,14 +1,17 @@
-<div class="d-flex flex-{{view}} gap-2  w-100">
+
+
+<div class="d-flex flex-{{view}} gap-3  w-100" [ngClass]="{'justify-content-center': view == 'wrap'}">
 
     <ng-container *ngFor="let post of posts; index as i">
-        <mat-card class="non_style">
+        <mat-card @fadeSlideInOut class="non_style inn_animation" [ngClass]="{'wrap_filter': view == 'wrap'}"
+         >
 
             <div class="d-flex flex-row p-1 gap-2 align-items-baseline">
-                <div class="d-flex box_user">
+                <div class="d-flex box_user" (click)="openModalInfoPost(post); $event.preventDefault();">
                     <div appInitialsLettersName [user]="showUser(post)"></div>
                 </div>
 
-                <div class="d-flex flex-column justify-content-between">
+                <div class="d-flex flex-column justify-content-between" [ngClass]="{'wrap_filter_content': view == 'wrap'}">
 
                     <div class="d-flex contain_post flex-column" >
                         <p appFirstLetterCapitalize class="title_post"> {{post.title}} </p>

@@ -41,12 +41,17 @@ export interface DataSnackBarInfo {
 
 }
 
-
 export interface TypeViewsPost {
     value: ValueTypeViewPost,
     name?: string,
     icon: string,
-   
+
 }
 
 export type ValueTypeViewPost = 'wrap' | 'column';
+
+export interface DataDialog {
+    titlePost: string;
+    bodyPost: string;
+    user: User;
+}

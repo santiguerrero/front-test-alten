@@ -10,6 +10,7 @@ import { SnackInfoComponent } from './components/snack-info/snack-info.component
 import { RouterModule } from '@angular/router';
 import { InitialsLettersNameDirective } from './directives/initials-letters-name.directive';
 import { FirstLetterCapitalizeDirective } from './directives/first-letter-capitalize.directive';
+import { DialogInfoComponent } from './components/dialog-info/dialog-info.component';
 
 
 
@@ -19,7 +20,8 @@ import { FirstLetterCapitalizeDirective } from './directives/first-letter-capita
     LayoutMainComponent,
     SnackInfoComponent,
     InitialsLettersNameDirective,
-    FirstLetterCapitalizeDirective
+    FirstLetterCapitalizeDirective,
+    DialogInfoComponent
   ],
   imports: [
     CommonModule,

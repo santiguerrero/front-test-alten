@@ -9,10 +9,12 @@
     box-shadow: 1px 1px 1px 1px;
     color: white;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .non_style {
     border-radius: 15px;
+    
 }
 
 .body_font_post {
@@ -37,4 +39,15 @@
     a {
         color: #5c9b88
     }
+}
+
+.wrap_filter {
+    max-width: 300px;
+    font-size: 15px;
+    
+}
+.wrap_filter_content .contain_post p.title_post {
+
+    font-size: 1.5rem ;
+
 }
