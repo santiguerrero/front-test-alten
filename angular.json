@@ -99,7 +99,12 @@
           }
         },
         "deploy": {
-          "builder": "angular-cli-ghpages:deploy"
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "https://santiguerrero.github.io/front-test-alten/",
+            "name": "Jesus Guerrero App For Alten",
+            "email": "santilgunvo@gmail.com"
+          }
         }
       }
     }
