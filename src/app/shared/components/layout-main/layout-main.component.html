@@ -1,0 +1,27 @@
+<!-- Header no sidenav, no sidebar, no drawer -->
+<mat-toolbar color="primary">
+
+    <mat-toolbar-row>
+      <a style="text-decoration: none; color: white;" routerLink="/posts">
+        Posts
+      </a>
+      <span class="spacer"></span>
+      
+
+      <mat-slide-toggle [(ngModel)]="valueColorTheme" (ngModelChange)="changeColorTheme()">
+
+        <mat-icon>
+          {{valueColorTheme ? 'dark_mode' : 'light_mode'}}
+        </mat-icon>
+        
+      </mat-slide-toggle>
+
+
+
+   
+    </mat-toolbar-row>
+  </mat-toolbar>
+
+  <!-- Main :) -->
+
+  <router-outlet></router-outlet>

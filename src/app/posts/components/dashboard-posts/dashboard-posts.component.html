@@ -1,0 +1,27 @@
+<div class="d-flex w-100 flex-column p-2">
+
+    <div class="d-flex justify-content-between w-100 align-items-start">
+        <div class="d-flex search w-75 align-items-center">
+            <mat-form-field class="d-flex w-100">
+                <mat-label>Cerca</mat-label>
+                <input type="text" matInput #searchPosts placeholder="Cerca post" name="search_posts">
+            </mat-form-field>
+
+        </div>
+
+        <div class="d-flex view_type align-items-center">
+            <mat-button-toggle-group name="view_type" [(ngModel)]="valueType">
+                <mat-button-toggle *ngFor="let item of arrayTypeView" [value]="item.value">
+                    <mat-icon color="accent">
+                        {{item.icon}}
+                    </mat-icon>
+                </mat-button-toggle>
+            </mat-button-toggle-group>
+        </div>
+    </div>
+
+    <div class="d-flex w-100">
+        <app-view-posts [posts]="posts" [users]="users" class="d-flex w-100" [view]="valueType"></app-view-posts>
+    </div>
+
+</div>

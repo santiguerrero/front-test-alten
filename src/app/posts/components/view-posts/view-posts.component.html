@@ -1,0 +1,42 @@
+<div class="d-flex flex-{{view}} gap-2  w-100">
+
+    <ng-container *ngFor="let post of posts; index as i">
+        <mat-card class="non_style">
+
+            <div class="d-flex flex-row p-1 gap-2 align-items-baseline">
+                <div class="d-flex box_user">
+                    <div appInitialsLettersName [user]="showUser(post)"></div>
+                </div>
+
+                <div class="d-flex flex-column justify-content-between">
+
+                    <div class="d-flex contain_post flex-column" >
+                        <p appFirstLetterCapitalize class="title_post"> {{post.title}} </p>
+
+                        <p appFirstLetterCapitalize  class="body_font_post">
+                            {{post.body}}
+                        </p>
+
+                     
+
+                    </div>
+
+                    <div class="d-flex ">
+                        <span class="info_user">
+
+                            Pubblicato da:
+                            <a matTooltip="Visualizza utente" routerLink="{{'/users/'+ showUser(post)?.id}}">
+                                {{ showUser(post)?.username }}
+                            </a>
+                        </span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </mat-card>
+
+    </ng-container>
+
+</div>
