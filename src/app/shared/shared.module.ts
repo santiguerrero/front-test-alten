@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MaterialModule } from '../material/material.module';
-import { ToggleThemeComponent } from './components/toggle-theme/toggle-theme.component';
 import { FormsModule } from '@angular/forms';
 
 import {LayoutModule as LayoutCdkModule} from '@angular/cdk/layout';
@@ -16,7 +15,6 @@ import { DialogInfoComponent } from './components/dialog-info/dialog-info.compon
 
 @NgModule({
   declarations: [
-    ToggleThemeComponent,
     LayoutMainComponent,
     SnackInfoComponent,
     InitialsLettersNameDirective,
@@ -33,7 +31,7 @@ import { DialogInfoComponent } from './components/dialog-info/dialog-info.compon
   exports: [
     MaterialModule,
     LayoutCdkModule,
-    ToggleThemeComponent,
+    
     InitialsLettersNameDirective,
     FirstLetterCapitalizeDirective
   ]

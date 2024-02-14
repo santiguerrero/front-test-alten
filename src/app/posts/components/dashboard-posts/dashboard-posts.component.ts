@@ -1,10 +1,10 @@
 import { AfterViewInit, Component, ElementRef, OnDestroy, OnInit, ViewChild } from '@angular/core';
-import { PostService } from '../../services/post.service';
 import { SubSink } from 'subsink';
 import { combineLatest, debounceTime, distinctUntilChanged, fromEvent, map, take } from 'rxjs';
 import { Post, TypeViewsPost, User, ValueTypeViewPost } from 'src/app/shared/models/shared.interfaces';
 import { MatButtonToggleChange } from '@angular/material/button-toggle';
 import * as _ from 'lodash';
+import { SharedService } from 'src/app/shared/services/shared.service';
 
 
 
@@ -24,7 +24,7 @@ export class DashboardPostsComponent implements OnInit, OnDestroy, AfterViewInit
   @ViewChild('searchpostsFiltered') searchPosts!: ElementRef;
 
 
-  constructor(private postService: PostService) { }
+  constructor(private sharedServices: SharedService) { }
   ngAfterViewInit(): void {
 
     fromEvent(this.searchPosts.nativeElement, 'keyup').pipe(
@@ -55,7 +55,7 @@ export class DashboardPostsComponent implements OnInit, OnDestroy, AfterViewInit
   ngOnInit(): void {
     this.sub.add(
 
-      combineLatest([this.postService.getPosts(), this.postService.getUsers()]).pipe(debounceTime(50), take(1)).subscribe(data => {
+      combineLatest([this.sharedServices.getPosts(), this.sharedServices.getUsers()]).pipe(debounceTime(50), take(1)).subscribe(data => {
 
         this.posts = data[0];
         this.postsFiltered = data[0];
