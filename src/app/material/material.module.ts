@@ -1,18 +1,26 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { MatProgressBarModule } from '@angular/material/progress-bar';
+import { MatButtonModule } from '@angular/material/button';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 
-const CurrentModules: string[] = [
+/**
+ * #Modules for import and export
+ */
 
+const CurrentModulesMaterial = [
+  MatSlideToggleModule,
+  MatProgressBarModule,
+  MatButtonModule
 ];
 
-
-
 @NgModule({
-  declarations: [
-  ],
   imports: [
-    CommonModule
+    CommonModule,
+    ...CurrentModulesMaterial
   ],
-  exports: []
+  exports: [
+    ...CurrentModulesMaterial
+  ]
 })
 export class MaterialModule { }
