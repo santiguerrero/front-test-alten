@@ -1,4 +1,4 @@
-<ng-container *ngIf="!postsFiltered || postsFiltered.length == 0">
+<ng-container *ngIf="(!postsFiltered || postsFiltered.length == 0) || loadingBar">
     <div class="box_progress">
         <mat-progress-bar color="warn" mode="indeterminate"></mat-progress-bar>
     </div>
@@ -16,11 +16,9 @@
 
         </div>
 
-       
-
         <div class="d-flex view_type align-items-center">
-            <mat-button-toggle-group name="view_type" [(ngModel)]="valueType">
-                <mat-button-toggle *ngFor="let item of arrayTypeView" [value]="item.value">
+            <mat-button-toggle-group name="view_type" [(ngModel)]="valueTypeModel" >
+                <mat-button-toggle *ngFor="let item of arrayTypeView" [value]="item.value" [matTooltip]="item.name || ''" >
                     <mat-icon color="accent">
                         {{item.icon}}
                     </mat-icon>

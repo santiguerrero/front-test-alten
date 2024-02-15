@@ -57,3 +57,5 @@ export interface DataDialog {
 }
 
 export const toggleMemory = 'toggleV-';
+
+export const viewTypeMemory = 'viewMemoryV-';
