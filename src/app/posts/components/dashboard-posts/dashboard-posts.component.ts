@@ -2,9 +2,9 @@ import { AfterViewInit, Component, ElementRef, OnDestroy, OnInit, ViewChild } fr
 import { SubSink } from 'subsink';
 import { catchError, combineLatest, debounceTime, distinctUntilChanged, fromEvent, map, take, throwError } from 'rxjs';
 import { Post, TypeViewsPost, User, ValueTypeViewPost, viewTypeMemory } from 'src/app/shared/models/shared.interfaces';
-import { MatButtonToggleChange } from '@angular/material/button-toggle';
 import * as _ from 'lodash';
 import { SharedService } from 'src/app/shared/services/shared.service';
+import {BreakpointObserver, Breakpoints} from "@angular/cdk/layout";
 
 
 
@@ -40,7 +40,7 @@ export class DashboardPostsComponent implements OnInit, OnDestroy, AfterViewInit
   }
 
 
-  constructor(private sharedServices: SharedService) { }
+  constructor(private sharedServices: SharedService, private breakPointObserver: BreakpointObserver) { }
   ngAfterViewInit(): void {
 
     fromEvent(this.searchPosts.nativeElement, 'keyup').pipe(
@@ -69,6 +69,8 @@ export class DashboardPostsComponent implements OnInit, OnDestroy, AfterViewInit
 
     this.loadingBar = false;
   }
+
+  noMinimunWidth = false;
   ngOnInit(): void {
 
     this.loadingBar = true;
@@ -88,6 +90,10 @@ export class DashboardPostsComponent implements OnInit, OnDestroy, AfterViewInit
       })
 
     );
+
+    this.breakPointObserver.observe([Breakpoints.Large, Breakpoints.Medium, Breakpoints.Small, '(min-width: 500px)']).pipe(distinctUntilChanged()).subscribe(observe => {
+      this.noMinimunWidth = observe.matches;
+    })
   }
   ngOnDestroy(): void {
     this.sub.unsubscribe();

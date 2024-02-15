@@ -1,6 +1,6 @@
 <ng-container *ngIf="user">
   <div class="d-flex justify-content-center w-100">
-    <div class="d-flex w-75">
+    <div class="d-flex w-75 p-2">
       <mat-card class="d-flex flex-column w-100">
         <mat-card-header>
           <h1>User Information</h1>
@@ -29,6 +29,13 @@
                     <textarea matInput [formControlName]="itemUser.value" readonly> </textarea>
                   </mat-form-field>
 
+                  <ng-container *ngIf="itemUser.value == 'address'">
+                    <div *ngIf="loadMap" style="height: 300px; width: 100%"
+                         leaflet
+                         [leafletOptions]="options">
+                    </div>
+                  </ng-container>
+
 
                 </ng-container>
               </ng-container>
@@ -37,10 +44,7 @@
 
           </form>
 
-          <div *ngIf="loadMap" style="height: 300px;"
-               leaflet
-               [leafletOptions]="options">
-          </div>
+
 
 
         </mat-card-content>

@@ -2,7 +2,7 @@ import { trigger, transition, style, animate } from '@angular/animations';
 import { Component, Input } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { DialogInfoComponent } from 'src/app/shared/components/dialog-info/dialog-info.component';
-import { DataDialog, Post, User, ValueTypeViewPost } from 'src/app/shared/models/shared.interfaces';
+import { Post, User, ValueTypeViewPost } from 'src/app/shared/models/shared.interfaces';
 
 @Component({
   selector: 'app-view-posts',
@@ -23,9 +23,10 @@ export class ViewPostsComponent {
   @Input() posts!: Post[];
   @Input() users!: User[];
   @Input() view!: ValueTypeViewPost;
+  @Input() layoutMobile!: boolean;
 
   showUser(post: Post): User | undefined {
-    return this.users.find(user => user.id == post.userId) || undefined 
+    return this.users.find(user => user.id == post.userId) || undefined
   }
 
   openModalInfoPost(post: Post) {
@@ -39,6 +40,6 @@ export class ViewPostsComponent {
   }
 
 
-  
+
 
 }

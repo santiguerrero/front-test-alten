@@ -5,8 +5,7 @@ import {User} from 'src/app/shared/models/shared.interfaces';
 import {SharedService} from 'src/app/shared/services/shared.service';
 import {SubSink} from 'subsink';
 import {FormControl, FormGroup} from "@angular/forms";
-import * as _ from "lodash";
-import {latLng, marker, tileLayer} from "leaflet";
+import {icon, latLng, Marker, marker, tileLayer} from "leaflet";
 
 
 export interface UserForm {
@@ -90,19 +89,17 @@ export class UserDetailComponent implements OnInit, OnDestroy {
 
   onlyForObjectValue(value: { [k: string]: any }) {
 
-    const ik = Object.keys(value).map(v => {
+    return Object.keys(value).map(v => {
 
-      if ( typeof value[v] == 'object') return ;
+      if (typeof value[v] == 'object') return;
 
       let fieldValue = '';
-      if ( value && value[v] ) {
+      if (value && value[v]) {
         fieldValue = ' ' + value[v] + ' ';
 
       }
       return fieldValue.split(' , ');
     });
-
-    return ik;
 
   }
 
@@ -111,6 +108,20 @@ export class UserDetailComponent implements OnInit, OnDestroy {
   };
 
   ngOnInit(): void {
+
+    const iconRetinaUrl = 'assets/marker-icon-2x.png';
+    const iconUrl = 'assets/marker-icon.png';
+    const shadowUrl = 'assets/marker-shadow.png';
+    Marker.prototype.options.icon = icon({
+      iconRetinaUrl,
+      iconUrl,
+      shadowUrl,
+      iconSize: [25, 41],
+      iconAnchor: [12, 41],
+      popupAnchor: [1, -34],
+      tooltipAnchor: [16, -28],
+      shadowSize: [41, 41]
+    });
 
     this.subs.add(
       combineLatest([this.sharedServices.getUsers(), this.routerActive.paramMap]).pipe(debounceTime(50), take(1)).subscribe(res => {
