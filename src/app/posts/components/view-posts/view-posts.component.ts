@@ -34,7 +34,7 @@ export class ViewPostsComponent {
     this.dialogService.open<DialogInfoComponent, any, any >( DialogInfoComponent , {
       width: '100%',
       height: 'auto',
-      data: { titlePost: post.title, bodyPost: post.body, user: this.showUser(post) }
+      data: { titlePost: post.title, bodyPost: post.body, user: this.showUser(post), mobile: this.layoutMobile }
     });
 
   }

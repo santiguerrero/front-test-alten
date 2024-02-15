@@ -1,11 +1,12 @@
 import {Component, OnDestroy, OnInit} from '@angular/core';
 import {ActivatedRoute} from '@angular/router';
-import {combineLatest, debounceTime, take} from 'rxjs';
+import {combineLatest, debounceTime, distinctUntilChanged, take} from 'rxjs';
 import {User} from 'src/app/shared/models/shared.interfaces';
 import {SharedService} from 'src/app/shared/services/shared.service';
 import {SubSink} from 'subsink';
 import {FormControl, FormGroup} from "@angular/forms";
 import {icon, latLng, Marker, marker, tileLayer} from "leaflet";
+import {BreakpointObserver, Breakpoints} from "@angular/cdk/layout";
 
 
 export interface UserForm {
@@ -18,6 +19,7 @@ export interface UserForm {
   website: FormControl<string | null>;
   company: FormControl<any>;
 }
+
 
 export interface ConstructorFormFields {
   value: string,
@@ -45,10 +47,12 @@ export class UserDetailComponent implements OnInit, OnDestroy {
     website: new FormControl<string>(''),
   });
 
+  notMobile: boolean = false;
+
   infoUser: ConstructorFormFields[] = [];
   loadMap = false;
 
-  constructor(private sharedServices: SharedService, private routerActive: ActivatedRoute) {
+  constructor(private sharedServices: SharedService, private routerActive: ActivatedRoute, private breakPointObserver: BreakpointObserver) {
   }
 
   ngOnDestroy(): void {
@@ -78,12 +82,12 @@ export class UserDetailComponent implements OnInit, OnDestroy {
     this.options = {
       layers: [
         tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {maxZoom: 18}),
-        marker([   parseFloat(this.user?.address?.geo?.lat || '0'), parseFloat(this.user?.address?.geo?.lng || '0')  ])
+        marker([parseFloat(this.user?.address?.geo?.lat || '0'), parseFloat(this.user?.address?.geo?.lng || '0')])
       ],
       zoom: 8,
-      center: latLng(  parseFloat(this.user?.address?.geo?.lat || '0'), parseFloat(this.user?.address?.geo?.lng || '0'), )
+      center: latLng(parseFloat(this.user?.address?.geo?.lat || '0'), parseFloat(this.user?.address?.geo?.lng || '0'),)
     };
-    this.loadMap= true;
+    this.loadMap = true;
 
   }
 
@@ -103,11 +107,15 @@ export class UserDetailComponent implements OnInit, OnDestroy {
 
   }
 
-  options = {
-
-  };
+  options = {};
 
   ngOnInit(): void {
+
+    this.breakPointObserver.observe([Breakpoints.Large, Breakpoints.Medium, Breakpoints.Small, '(min-width: 500px)']).pipe(distinctUntilChanged())
+      .subscribe(observe => {
+        this.notMobile = observe.matches;
+        console.log(this.notMobile)
+      });
 
     const iconRetinaUrl = 'assets/marker-icon-2x.png';
     const iconUrl = 'assets/marker-icon.png';

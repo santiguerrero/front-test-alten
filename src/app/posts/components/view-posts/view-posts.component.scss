@@ -1,49 +1,51 @@
 .box_user {
-    width: 50px;
-    height: 50px;
-    min-width: 50px;
-    border-radius: 15px;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(92, 155, 136);
-    box-shadow: 1px 1px 1px 1px;
-    color: white;
-    font-weight: 500;
-    cursor: pointer;
+  width: 50px;
+  height: 50px;
+  min-width: 50px;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(92, 155, 136);
+  box-shadow: 1px 1px 1px 1px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
 }
 
 .non_style {
-    border-radius: 15px;
+  border-radius: 15px;
 
 }
 
 .body_font_post {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 .title_post {
-    font-size: 2rem;
-    font-weight: bold;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .detail_user_public {
-    font-size: 0.75rem;
+  font-size: 0.75rem;
 }
 
 .info_user {
-    text-decoration: none;
-    color: black;
-    font-style: italic;
-    font-weight: 500;
+  text-decoration: none;
+  color: black;
+  font-style: italic;
+  font-weight: 500;
 
-    a {
-        color: #5c9b88
-    }
+  a {
+    color: #5c9b88
+  }
 }
 
 .wrap_filter {
-    font-size: 15px;
+  font-size: 15px;
+  max-width: 300px;
 }
+
 .wrap_filter_content .contain_post p.title_post {
-    font-size: 1.5rem ;
+  font-size: 1.5rem;
 }

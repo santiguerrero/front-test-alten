@@ -1,6 +1,6 @@
 <ng-container *ngIf="user">
   <div class="d-flex justify-content-center w-100">
-    <div class="d-flex w-75 p-2">
+    <div class="d-flex " [ngClass]="{'w-75 p-2': notMobile, 'w-100 p-1': !notMobile}">
       <mat-card class="d-flex flex-column w-100">
         <mat-card-header>
           <h1>User Information</h1>
@@ -9,7 +9,6 @@
 
           <form [formGroup]="formUser" class="d-flex w-100 align-items-start  flex-column gap-2">
             <ng-container *ngFor="let itemUser of infoUser">
-
 
 
               <ng-container [ngSwitch]="itemUser.type">
@@ -43,8 +42,6 @@
             </ng-container>
 
           </form>
-
-
 
 
         </mat-card-content>

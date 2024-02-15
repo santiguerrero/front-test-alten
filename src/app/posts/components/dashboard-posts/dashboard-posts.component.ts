@@ -93,7 +93,13 @@ export class DashboardPostsComponent implements OnInit, OnDestroy, AfterViewInit
 
     this.breakPointObserver.observe([Breakpoints.Large, Breakpoints.Medium, Breakpoints.Small, '(min-width: 500px)']).pipe(distinctUntilChanged()).subscribe(observe => {
       this.noMinimunWidth = observe.matches;
-    })
+
+      if (this.noMinimunWidth) {
+
+        this.valueTypeModel = 'wrap';
+
+      }
+    });
   }
   ngOnDestroy(): void {
     this.sub.unsubscribe();

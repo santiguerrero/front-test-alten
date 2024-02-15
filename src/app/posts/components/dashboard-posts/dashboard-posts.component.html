@@ -8,7 +8,7 @@
 <div class="d-flex w-100 flex-column p-2">
 
   <div class="d-flex justify-content-between w-100 gap-1 align-items-start">
-    <div class="d-flex search w-75 align-items-center">
+    <div class="d-flex search  align-items-center" [ngClass]="{'w-75' : noMinimunWidth, 'w-100' : !noMinimunWidth }">
       <mat-form-field class="d-flex w-100">
         <mat-label>Cerca</mat-label>
         <input type="text" matInput #searchpostsFiltered placeholder="Cerca post" name="search_postsFiltered">
@@ -17,7 +17,7 @@
     </div>
 
     <!--      questo puo essere un unico componente,  8-) -->
-    <div class="d-flex view_type align-items-center">
+    <div class="d-flex view_type align-items-center" *ngIf="noMinimunWidth">
       <mat-button-toggle-group name="view_type" [(ngModel)]="valueTypeModel">
         <mat-button-toggle *ngFor="let item of arrayTypeView" [value]="item.value" [matTooltip]="item.name || ''">
           <mat-icon color="accent">

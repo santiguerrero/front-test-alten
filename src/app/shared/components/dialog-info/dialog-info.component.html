@@ -1,9 +1,9 @@
-<div class="d-flex w-100 gap-2 p-2 flex-column">
+<div class="d-flex w-100 gap-2 p-2 flex-column" [ngClass]="{'all_fonts': data.mobile}">
     <div class="d-flex justify-content-end gap-1">
         Post pubblicato da:
-        <span class="font_italic" >
+        <span class="font_italic specific_color_font" >
             {{data.user.name}}
-            
+
         </span>
         Alias:
         <span class="font_italic" >
@@ -12,13 +12,13 @@
     </div>
 
     <div class="d-flex justify-content-center w-100">
-        <h2 appFirstLetterCapitalize> {{ data.titlePost }}</h2>
+        <h2 appFirstLetterCapitalize class="specific_color_font"> {{ data.titlePost }}</h2>
 
     </div>
 
     <div class="d-flex w-100" style="text-align: center;">
-      
-        <h5 appFirstLetterCapitalize>
+
+        <h5 appFirstLetterCapitalize class="specific_color_font_sub">
             {{data.bodyPost}}
         </h5>
 

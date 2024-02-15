@@ -1,11 +1,13 @@
 
 
-<div class="d-flex flex-{{view}} gap-3  w-100" [ngClass]="{'justify-content-center': view == 'wrap' && !layoutMobile , 'justify-content-between': layoutMobile}">
+<div class="d-flex flex-{{view}} gap-3  w-100" [ngClass]="{'justify-content-center': layoutMobile}">
 
     <ng-container *ngFor="let post of posts; index as i">
-        <mat-card @fadeSlideInOut class="non_style inn_animation" [ngStyle]="{'max-width': layoutMobile ? 'auto' : '300px'}" [ngClass]="{'wrap_filter': view == 'wrap' , 'layoutMobile': layoutMobile}"
+        <mat-card @fadeSlideInOut class="non_style inn_animation"  [ngClass]="{'wrap_filter': view == 'wrap'}"
          >
 
+
+<!--          [ngStyle]="{'width': layoutMobile ? 'auto' : '100%'}"-->
             <div class="d-flex flex-row p-1 gap-2 align-items-baseline">
                 <div class="d-flex box_user" (click)="openModalInfoPost(post); $event.preventDefault();">
                     <div appInitialsLettersName [user]="showUser(post)"></div>

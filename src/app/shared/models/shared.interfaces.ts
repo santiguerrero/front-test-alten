@@ -54,6 +54,7 @@ export interface DataDialog {
     titlePost: string;
     bodyPost: string;
     user: User;
+    mobile: boolean
 }
 
 export const toggleMemory = 'toggleV-';
