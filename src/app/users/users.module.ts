@@ -1,9 +1,11 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import {NgModule} from '@angular/core';
+import {CommonModule} from '@angular/common';
 
-import { UsersRoutingModule } from './users-routing.module';
-import { UserDetailComponent } from './components/user-detail/user-detail.component';
-import { SharedModule } from '../shared/shared.module';
+import {UsersRoutingModule} from './users-routing.module';
+import {UserDetailComponent} from './components/user-detail/user-detail.component';
+import {SharedModule} from '../shared/shared.module';
+import {ReactiveFormsModule} from "@angular/forms";
+import {LeafletModule} from "@asymmetrik/ngx-leaflet";
 
 
 @NgModule({
@@ -13,7 +15,10 @@ import { SharedModule } from '../shared/shared.module';
   imports: [
     CommonModule,
     UsersRoutingModule,
-    SharedModule
+    SharedModule,
+    ReactiveFormsModule,
+    LeafletModule
   ]
 })
-export class UsersModule { }
+export class UsersModule {
+}
