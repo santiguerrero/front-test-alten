@@ -1,0 +1,1276 @@
+[
+    {
+        "code": "6SFO311",
+        "project": "Milano Montenapoleone - Donna",
+        "country": "IT",
+        "address": {
+            "location": "Via Monte Napoleone, 3 Milano",
+            "latlng": [
+                "45.4674576",
+                "9.1954432"
+            ]
+        },
+        "managed": "499",
+        "values": {
+            "gateway": "1",
+            "alerts": "0",
+            "managed": "499",
+            "sensors": "12"
+        }
+    },
+    {
+        "code": "6SF0366",
+        "project": "Brisbane - Queens Plaza",
+        "country": "AU",
+        "address": {
+            "location": "Queens Plaza, 226, Queen St., Brisbane, QLD 4000",
+            "latlng": [
+                "-27.4680511",
+                "153.0265165"
+            ]
+        },
+        "managed": "526",
+        "values": {
+            "gateway": "1",
+            "alerts": "4",
+            "managed": "526",
+            "sensors": "12"
+        }
+    },
+    {
+        "code": "6SF0187",
+        "project": "Manama - Bahrain City Center - Saks",
+        "country": "BH",
+        "address": {
+            "location": "Bahrain City Centre, Saks Fifth Avenue, Road No 2819, Manama",
+            "latlng": [
+                "26.2332927",
+                "50.5533106"
+            ]
+        },
+        "managed": "770",
+        "values": {
+            "gateway": "1",
+            "alerts": "0",
+            "managed": "770",
+            "sensors": "3"
+        }
+    },
+    {
+        "code": "6SF0134",
+        "project": "Manama - Moda Mall",
+        "country": "BH",
+        "address": {
+            "location": "Moda Mall, Bahrain World Trade Center, King Faisal Highway, Manama",
+            "latlng": [
+                "26.239609",
+                "50.5812877"
+            ]
+        },
+        "managed": "653",
+        "values": {
+            "gateway": "1",
+            "alerts": "3",
+            "managed": "653",
+            "sensors": "3"
+        }
+    },
+    {
+        "code": "6SF0230",
+        "project": "Sao Paulo - Cidade Jardim",
+        "country": "BR",
+        "address": {
+            "location": "Shopping Cidade Jardim, 12000, Avenida Magalhaes de Castro, Sao Paulo, 05502-001",
+            "latlng": [
+                "-23.5989415",
+                "-46.697565"
+            ]
+        },
+        "managed": "820",
+        "values": {
+            "gateway": "1",
+            "alerts": "0",
+            "managed": "820",
+            "sensors": "3"
+        }
+    },
+    {
+        "code": "6SF0269",
+        "project": "Vancouver - Pacific Centre - Holt Renfrew",
+        "country": "CA",
+        "address": {
+            "location": "Pacific Centre, Holt Renfrew, 737, Dunsmuir St., Vancouver, V7Y 1E4",
+            "latlng": [
+                "49.2841242",
+                "-123.116277"
+            ]
+        },
+        "managed": "199",
+        "values": {
+            "gateway": "1",
+            "alerts": "3",
+            "managed": "199",
+            "sensors": "12"
+        }
+    },
+    {
+        "code": "6SF0050",
+        "project": "Beijing - China World",
+        "country": "CN",
+        "address": {
+            "location": "Unit Sb103A China World Shopping Mall, 1 Jian Guo Men Wai Avenue, Beijing",
+            "latlng": [
+                "39.9099547",
+                "116.4592541"
+            ]
+        },
+        "managed": "326",
+        "values": {
+            "gateway": "1",
+            "alerts": "0",
+            "managed": "326",
+            "sensors": "12"
+        }
+    },
+    {
+        "code": "6SF0358",
+        "project": "Beijing - WF Central",
+        "country": "CN",
+        "address": {
+            "location": "Room 108c&d, 1ST floor building 1,yard 269,BEIJING",
+            "latlng": [
+                "39.9093165",
+                "116.4573781"
+            ]
+        },
+        "managed": "499",
+        "values": {
+            "gateway": "1",
+            "alerts": "1",
+            "managed": "499",
+            "sensors": "12"
+        }
+    },
+    {
+        "code": "6SF0146",
+        "project": "Changchun - Charter",
+        "country": "CN",
+        "address": {
+            "location": "Shop B1101, Changchun Charter, No.1255 Chongqing Road, Changchun, Jilin ",
+            "latlng": [
+                "43.8901906",
+                "125.3199519"
+            ]
+        },
+        "managed": "207",
+        "values": {
+            "gateway": "1",
+            "alerts": "3",
+            "managed": "207",
+            "sensors": "3"
+        }
+    },
+    {
+        "code": "6SF0247",
+        "project": "Chengdu - IFS",
+        "country": "CN",
+        "address": {
+            "location": "Shop L143-144 & Shop L243-244, Chengdu IFS, No.1, Section 3 Hongxing Road, Chengdu, Sichuan ",
+            "latlng": [
+                "30.6545667",
+                "104.0804452"
+            ]
+        },
+        "managed": "428",
+        "values": {
+            "gateway": "1",
+            "alerts": "4",
+            "managed": "428",
+            "sensors": "3"
+        }
+    },
+    {
+        "code": "6SF0323",
+        "project": "Chongqing - IFS Men",
+        "country": "CN",
+        "address": {
+            "location": "Unit 254, Floor two, Chongqing ifs, No.38 North main street, Jiangbei District，CHONGQING",
+            "latlng": [
+                "29.605282",
+                "106.573424"
+            ]
+        },
+        "managed": "239",
+        "values": {
+            "gateway": "1",
+            "alerts": "4",
+            "managed": "239",
+            "sensors": "12"
+        }
+    },
+    {
+        "code": "6SF0326",
+        "project": "Chongqing - IFS Women",
+        "country": "CN",
+        "address": {
+            "location": "Unit 304,  Floor three, Chongqing ifs, No.38 North main street, Jiangbei District, CHONGQING",
+            "latlng": [
+                "29.6060155",
+                "106.5739995"
+            ]
+        },
+        "managed": "372",
+        "values": {
+            "gateway": "1",
+            "alerts": "0",
+            "managed": "372",
+            "sensors": "3"
+        }
+    },
+    {
+        "code": "6SF0446",
+        "project": "Chongqing - Mix City",
+        "country": "CN",
+        "address": {
+            "location": "No. 55, Xiejiawan Main Street, Jiulongpo District, Chongqing",
+            "latlng": [
+                "29.5207938",
+                "106.518158"
+            ]
+        },
+        "managed": "795",
+        "values": {
+            "gateway": "1",
+            "alerts": "0",
+            "managed": "795",
+            "sensors": "3"
+        }
+    },
+    {
+        "code": "6SF0169",
+        "project": "Dalian - Times Square",
+        "country": "CN",
+        "address": {
+            "location": "No. L122, Dalian Times Square, No.50 Renmin Road, Dalian, Liaoning",
+            "latlng": [
+                "38.9242325",
+                "121.6501526"
+            ]
+        },
+        "managed": "221",
+        "values": {
+            "gateway": "1",
+            "alerts": "3",
+            "managed": "221",
+            "sensors": "12"
+        }
+    },
+    {
+        "code": "6SF0198",
+        "project": "Guangzhou - Taikoo Hui",
+        "country": "CN",
+        "address": {
+            "location": "Shop L232, TaiKoo Hui Shopping Mall,No.383 Tianhe Road, Guangzhou, Guangdong",
+            "latlng": [
+                "23.1347512",
+                "113.3321475"
+            ]
+        },
+        "managed": "330",
+        "values": {
+            "gateway": "1",
+            "alerts": "2",
+            "managed": "330",
+            "sensors": "3"
+        }
+    },
+    {
+        "code": "6SF0350",
+        "project": "Guangzhou - Taikoo Hui - Men",
+        "country": "CN",
+        "address": {
+            "location": "Shop L115, Taikoo Hui Shopping Mall, No.383 Tianhe Road, Guangzhou, Guangdong",
+            "latlng": [
+                "23.1347314",
+                "113.3321435"
+            ]
+        },
+        "managed": "317",
+        "values": {
+            "gateway": "1",
+            "alerts": "1",
+            "managed": "317",
+            "sensors": "12"
+        }
+    },
+    {
+        "code": "6SF0194",
+        "project": "Hangzhou - MixCity",
+        "country": "CN",
+        "address": {
+            "location": "Shop 182 Hangzhou The Mixc, No.701 Fuchun Road, Hangzhou, Zhejiang",
+            "latlng": [
+                "30.2520162",
+                "120.2138542"
+            ]
+        },
+        "managed": "473",
+        "values": {
+            "gateway": "1",
+            "alerts": "3",
+            "managed": "473",
+            "sensors": "3"
+        }
+    },
+    {
+        "code": "6SF0376",
+        "project": "Harbin - Charter - Men",
+        "country": "CN",
+        "address": {
+            "location": "NO.1118-1, Harbin Charter, No 106 Anlong Street, DaoLi District, Harbin",
+            "latlng": [
+                "45.7632424",
+                "126.6081996"
+            ]
+        },
+        "managed": "390",
+        "values": {
+            "gateway": "1",
+            "alerts": "1",
+            "managed": "390",
+            "sensors": "3"
+        }
+    },
+    {
+        "code": "6SF0368",
+        "project": "Harbin - Charter - Women",
+        "country": "CN",
+        "address": {
+            "location": "No. 1111, 1/F, No.106 Anlong Street, DaoLi District, Harbin, Heilongjiang",
+            "latlng": [
+                "45.7632452",
+                "126.6081573"
+            ]
+        },
+        "managed": "446",
+        "values": {
+            "gateway": "1",
+            "alerts": "0",
+            "managed": "446",
+            "sensors": "12"
+        }
+    },
+    {
+        "code": "6SF0256",
+        "project": "Nanjing Deji Plaza",
+        "country": "CN",
+        "address": {
+            "location": "Unit F108, Floor 1, Nanjing Deji Plaza, No.18 Zhongshan Road, Nanjing, Jiangsu",
+            "latlng": [
+                "32.0445491",
+                "118.7844271"
+            ]
+        },
+        "managed": "541",
+        "values": {
+            "gateway": "1",
+            "alerts": "1",
+            "managed": "541",
+            "sensors": "12"
+        }
+    },
+    {
+        "code": "6SF0437",
+        "project": "Qingdao - Hisense Plaza",
+        "country": "CN",
+        "address": {
+            "location": "Cina, Shandong, Qingdao, Chengyang District, 309省道 邮政编码: 266114",
+            "latlng": [
+                "36.2912088",
+                "120.2478594"
+            ]
+        },
+        "managed": "427",
+        "values": {
+            "gateway": "1",
+            "alerts": "3",
+            "managed": "427",
+            "sensors": "12"
+        }
+    },
+    {
+        "code": "6SF0325",
+        "project": "Shanghai - ICC - IAPM",
+        "country": "CN",
+        "address": {
+            "location": "Unit123, Level One, Shanghai IAPM, No 999 Middle Huaihai road, Xuhui district",
+            "latlng": [
+                "31.2164539",
+                "121.4585857"
+            ]
+        },
+        "managed": "377",
+        "values": {
+            "gateway": "1",
+            "alerts": "0",
+            "managed": "377",
+            "sensors": "12"
+        }
+    },
+    {
+        "code": "6SF0362",
+        "project": "Shanghai - IFC - Women",
+        "country": "CN",
+        "address": {
+            "location": "Shop L1-21-2 & L2-21-2, Building D, Shanghai IFC, No 8, Century Avenue, Pudong, Shanghai",
+            "latlng": [
+                "31.2368207",
+                "121.5018679"
+            ]
+        },
+        "managed": "454",
+        "values": {
+            "gateway": "1",
+            "alerts": "5",
+            "managed": "454",
+            "sensors": "3"
+        }
+    },
+    {
+        "code": "6SF0409",
+        "project": "Shanghai - Taikoo Li Qiantan",
+        "country": "CN",
+        "address": {
+            "location": "Shop S-L1-55-56, Shanghai Tai Koo Li Qian Tan,No.500",
+            "latlng": [
+                "31.2351392",
+                "121.475363"
+            ]
+        },
+        "managed": "489",
+        "values": {
+            "gateway": "1",
+            "alerts": "2",
+            "managed": "489",
+            "sensors": "3"
+        }
+    },
+    {
+        "code": "6SF0200",
+        "project": "Shenyang - MixCity",
+        "country": "CN",
+        "address": {
+            "location": "Shop 130, Shenyang Mixc City, No.288 Qingnian Street, Shenyang, Liaoning",
+            "latlng": [
+                "41.807664",
+                "123.3752472"
+            ]
+        },
+        "managed": "290",
+        "values": {
+            "gateway": "1",
+            "alerts": "5",
+            "managed": "290",
+            "sensors": "12"
+        }
+    },
+    {
+        "code": "6SF0423",
+        "project": "Shenzhen - Bay MixC",
+        "country": "CN",
+        "address": {
+            "location": "Shenzhen Bay Mix City L127 & l238 + L239, No. 2888 KeYuan South Road, Nanshan District Shenzhen ",
+            "latlng": [
+                "22.5155239",
+                "113.9450746"
+            ]
+        },
+        "managed": "317",
+        "values": {
+            "gateway": "1",
+            "alerts": "2",
+            "managed": "317",
+            "sensors": "3"
+        }
+    },
+    {
+        "code": "6SF0153",
+        "project": "Shenzhen - MixC",
+        "country": "CN",
+        "address": {
+            "location": "Shop 131/133/135, Shenzhen Mixc, No.1881 Baoan Road South, Shenzhen, Guangdong",
+            "latlng": [
+                "22.5396881",
+                "114.1108812"
+            ]
+        },
+        "managed": "351",
+        "values": {
+            "gateway": "1",
+            "alerts": "2",
+            "managed": "351",
+            "sensors": "12"
+        }
+    },
+    {
+        "code": "6SF0226",
+        "project": "Tianjin - Galaxy MixCity",
+        "country": "CN",
+        "address": {
+            "location": "Shop L1-022, L2-019 Tianjin Galaxy Shopping Center, No.9 Park Road, Tianjin",
+            "latlng": [
+                "39.0786551",
+                "117.1949129"
+            ]
+        },
+        "managed": "487",
+        "values": {
+            "gateway": "1",
+            "alerts": "2",
+            "managed": "487",
+            "sensors": "12"
+        }
+    },
+    {
+        "code": "6SF0425",
+        "project": "Düsseldorf - Königsallee",
+        "country": "DE",
+        "address": {
+            "location": "Koenigsallee 36, 40212 , Düsseldorf , Germania",
+            "latlng": [
+                "51.2240586",
+                "6.779684"
+            ]
+        },
+        "managed": "245",
+        "values": {
+            "gateway": "1",
+            "alerts": "2",
+            "managed": "245",
+            "sensors": "3"
+        }
+    },
+    {
+        "code": "6SF0418",
+        "project": "Madrid - El Corte Ingles",
+        "country": "ES",
+        "address": {
+            "location": "C. de Raimundo Fernández Villaverde, 65, 28003, Madrid, Madrid, Spain",
+            "latlng": [
+                "40.4467317",
+                "-3.6945616"
+            ]
+        },
+        "managed": "795",
+        "values": {
+            "gateway": "1",
+            "alerts": "1",
+            "managed": "795",
+            "sensors": "12"
+        }
+    },
+    {
+        "code": "6SF0380",
+        "project": "Puerto Banus",
+        "country": "ES",
+        "address": {
+            "location": "CALLE AR/ PUERTO JOSE BANUS 3 LOCAL 29660 NUEVA ANDALUCIA, Málaga",
+            "latlng": [
+                "36.4856122",
+                "-4.9542439"
+            ]
+        },
+        "managed": "469",
+        "values": {
+            "gateway": "1",
+            "alerts": "5",
+            "managed": "469",
+            "sensors": "3"
+        }
+    },
+    {
+        "code": "6SF0184",
+        "project": "Bicester - Outlet",
+        "country": "GB",
+        "address": {
+            "location": "Unit 84, Pingle Drive, OX26 6WN, Bicester Village, OXFORDSHIRE, United Kingdom",
+            "latlng": [
+                "51.8933373",
+                "-1.1577154"
+            ]
+        },
+        "managed": "141",
+        "values": {
+            "gateway": "1",
+            "alerts": "1",
+            "managed": "141",
+            "sensors": "12"
+        }
+    },
+    {
+        "code": "6SF0440",
+        "project": "HK - Landmark Men",
+        "country": "HK",
+        "address": {
+            "location": "The Landmark, 15, Queen's road, Central, Hong Kong",
+            "latlng": [
+                "22.2811544",
+                "114.157837"
+            ]
+        },
+        "managed": "574",
+        "values": {
+            "gateway": "1",
+            "alerts": "0",
+            "managed": "574",
+            "sensors": "12"
+        }
+    },
+    {
+        "code": "tbd",
+        "project": "Hong Kong Canton Road",
+        "country": "HK",
+        "address": {
+            "location": "Shop G126, G/F, No.7-25 Canton Road, Harbour City, Kowloon, Hong Kong SAR",
+            "latlng": [
+                22.2989,
+                114.1697
+            ]
+        },
+        "managed": "490",
+        "values": {
+            "gateway": "1",
+            "alerts": "4",
+            "managed": "490",
+            "sensors": "12"
+        }
+    },
+    {
+        "code": "6SF0330",
+        "project": "Fukuoka - Hankyu - Hakata",
+        "country": "JP",
+        "address": {
+            "location": "Hankyu, 1-1, Hakataekichuogai, Hakata-ku, Fukuoka, 812-0012",
+            "latlng": [
+                33.5902,
+                130.4207
+            ]
+        },
+        "managed": "758",
+        "values": {
+            "gateway": "1",
+            "alerts": "3",
+            "managed": "758",
+            "sensors": "3"
+        }
+    },
+    {
+        "code": "6SF0008",
+        "project": "Fukuoka - Iwataya",
+        "country": "JP",
+        "address": {
+            "location": "Iwataya, 2-5-35, Tenjin, Chuo-ku, Fukuoka, 810-8680",
+            "latlng": [
+                33.5902,
+                130.4018
+            ]
+        },
+        "managed": "729",
+        "values": {
+            "gateway": "1",
+            "alerts": "1",
+            "managed": "729",
+            "sensors": "12"
+        }
+    },
+    {
+        "code": "6SF0077",
+        "project": "Gotemba - Premium Outlets - Meleze",
+        "country": "JP",
+        "address": {
+            "location": "Gotemba Premium Outlets, 1312, Fukasawa, Gotemba, 412-0023",
+            "latlng": [
+                35.2968,
+                138.9290
+            ]
+        },
+        "managed": "769",
+        "values": {
+            "gateway": "1",
+            "alerts": "3",
+            "managed": "769",
+            "sensors": "12"
+        }
+    },
+    {
+        "code": "6SF0130",
+        "project": "Kobe - Daimaru",
+        "country": "JP",
+        "address": {
+            "location": "Daimaru, 40, Akashi-cho, Chuo-ku, Kobe, 650-0037",
+            "latlng": [
+                34.6913,
+                135.1830
+            ]
+        },
+        "managed": "626",
+        "values": {
+            "gateway": "1",
+            "alerts": "5",
+            "managed": "626",
+            "sensors": "3"
+        }
+    },
+    {
+        "code": "6SF0189",
+        "project": "Kyoto - Daimaru",
+        "country": "JP",
+        "address": {
+            "location": "Daimaru, 79, Shijo street Takakura Nishiiri Tachiurinishimachi, Shimogyo-ku, Kyoto, 600-8511",
+            "latlng": [
+                35.0025,
+                135.7681
+            ]
+        },
+        "managed": "501",
+        "values": {
+            "gateway": "1",
+            "alerts": "5",
+            "managed": "501",
+            "sensors": "12"
+        }
+    },
+    {
+        "code": "6SF0075",
+        "project": "Kyoto - Isetan",
+        "country": "JP",
+        "address": {
+            "location": "Isetan, Higashi Shiokoji-cho, Shiokoji sagaru, Karasuma-dori, Shimogyo-ku, Kyoto, 600-8555",
+            "latlng": [
+                35.0034,
+                135.7675
+            ]
+        },
+        "managed": "631",
+        "values": {
+            "gateway": "1",
+            "alerts": "1",
+            "managed": "631",
+            "sensors": "12"
+        }
+    },
+    {
+        "code": "6SF0448",
+        "project": "Nagoya - JR Nagoya Takashimaya",
+        "country": "JP",
+        "address": {
+            "location": "Takashimaya, 1-1-4, Meieki, Nakamura-ku, Nagoya, 450-6001",
+            "latlng": [
+                35.1709,
+                136.8811
+            ]
+        },
+        "managed": "582",
+        "values": {
+            "gateway": "1",
+            "alerts": "0",
+            "managed": "582",
+            "sensors": "3"
+        }
+    },
+    {
+        "code": "6SF0011",
+        "project": "Nagoya - Matsuzakaya",
+        "country": "JP",
+        "address": {
+            "location": "Matsuzakaya, 3-16-1, Sakae, Naka-ku, Nagoya, 460-8430",
+            "latlng": [
+                35.1612,
+                136.9066
+            ]
+        },
+        "managed": "615",
+        "values": {
+            "gateway": "1",
+            "alerts": "1",
+            "managed": "615",
+            "sensors": "12"
+        }
+    },
+    {
+        "code": "6SF0029",
+        "project": "Nagoya - Takashimaya",
+        "country": "JP",
+        "address": {
+            "location": "Takashimaya, 1-1-4, Meieki, Nakamura-ku, Nagoya, 450-6001",
+            "latlng": [
+                35.1709,
+                136.8811
+            ]
+        },
+        "managed": "392",
+        "values": {
+            "gateway": "1",
+            "alerts": "4",
+            "managed": "392",
+            "sensors": "12"
+        }
+    },
+    {
+        "code": "6SF0090",
+        "project": "Naha - DFS Galleria Okinawa",
+        "country": "JP",
+        "address": {
+            "location": "DFS Galleria Okinawa, 4-1, Omoromachi, Naha, 900-0006",
+            "latlng": [
+                26.2144,
+                127.6814
+            ]
+        },
+        "managed": "800",
+        "values": {
+            "gateway": "1",
+            "alerts": "0",
+            "managed": "800",
+            "sensors": "12"
+        }
+    },
+    {
+        "code": "6SF0216",
+        "project": "Osaka - Hankyu - Men",
+        "country": "JP",
+        "address": {
+            "location": "2F Men'S Bldg. 7-10, Kakudacho, Kita-Ku, Osaka, 530-0017",
+            "latlng": [
+                34.7056,
+                135.4980
+            ]
+        },
+        "managed": "751",
+        "values": {
+            "gateway": "1",
+            "alerts": "4",
+            "managed": "751",
+            "sensors": "3"
+        }
+    },
+    {
+        "code": "6SF0002",
+        "project": "Osaka - Hankyu - Umeda",
+        "country": "JP",
+        "address": {
+            "location": "Hankyu, 8-7, Kakuda-cho, Kita-ku, Osaka, 530-8350",
+            "latlng": [
+                34.7060,
+                135.4949
+            ]
+        },
+        "managed": "669",
+        "values": {
+            "gateway": "1",
+            "alerts": "1",
+            "managed": "669",
+            "sensors": "3"
+        }
+    },
+    {
+        "code": "6SF0222",
+        "project": "Osaka - Hankyu - Umeda - GF - LG",
+        "country": "JP",
+        "address": {
+            "location": "Hankyu, 8-7, Kakuda-cho, Kita-ku, Osaka, 530-8350",
+            "latlng": [
+                34.7060,
+                135.4949
+            ]
+        },
+        "managed": "760",
+        "values": {
+            "gateway": "1",
+            "alerts": "0",
+            "managed": "760",
+            "sensors": "12"
+        }
+    },
+    {
+        "code": "6SF0388",
+        "project": "Osaka - Rinku Outlet",
+        "country": "JP",
+        "address": {
+            "location": "4-17-6700, Rinku Ourai Minami, Izumisano-Shi, Osaka, 598-8509",
+            "latlng": [
+                34.4276,
+                135.3035
+            ]
+        },
+        "managed": "665",
+        "values": {
+            "gateway": "1",
+            "alerts": "5",
+            "managed": "665",
+            "sensors": "12"
+        }
+    },
+    {
+        "code": "6SF0013",
+        "project": "Osaka - Takashimaya",
+        "country": "JP",
+        "address": {
+            "location": "Takashimaya, 5-1-5, Namba, Chuo-ku, Osaka, 542-8510",
+            "latlng": [
+                34.6628,
+                135.5006
+            ]
+        },
+        "managed": "551",
+        "values": {
+            "gateway": "1",
+            "alerts": "1",
+            "managed": "551",
+            "sensors": "12"
+        }
+    },
+    {
+        "code": "6SF0381",
+        "project": "Sapporo - Daimaru",
+        "country": "JP",
+        "address": {
+            "location": "2F, 4-7, Kitagojyonishi, Chuo-Ku, Sapporo-Shi, Hokkaido, 060-0005",
+            "latlng": [
+                43.0621,
+                141.3544
+            ]
+        },
+        "managed": "783",
+        "values": {
+            "gateway": "1",
+            "alerts": "0",
+            "managed": "783",
+            "sensors": "3"
+        }
+    },
+    {
+        "code": "6SF0005",
+        "project": "Sapporo Marui Imai",
+        "country": "JP",
+        "address": {
+            "location": "Maruiimai, 2-11, Minami Ichijo Nishi, Chuo-ku, Sapporo, 060-8667",
+            "latlng": [
+                43.0621,
+                141.3521
+            ]
+        },
+        "managed": "657",
+        "values": {
+            "gateway": "1",
+            "alerts": "4",
+            "managed": "657",
+            "sensors": "3"
+        }
+    },
+    {
+        "code": "6SF0217",
+        "project": "Tokyo - Daimaru",
+        "country": "JP",
+        "address": {
+            "location": "Daimaru, 1-9-1, Marunouchi, Chiyoda-ku, Tokyo, 100-6701",
+            "latlng": [
+                35.6814,
+                139.7660
+            ]
+        },
+        "managed": "459",
+        "values": {
+            "gateway": "1",
+            "alerts": "4",
+            "managed": "459",
+            "sensors": "12"
+        }
+    },
+    {
+        "code": "6SF0040",
+        "project": "Tokyo - Ginza Matsuya",
+        "country": "JP",
+        "address": {
+            "location": "Matsuya, 3-6-1, Ginza, Chuo-ku, Tokyo, 104-8130",
+            "latlng": [
+                35.6718,
+                139.7650
+            ]
+        },
+        "managed": "833",
+        "values": {
+            "gateway": "1",
+            "alerts": "3",
+            "managed": "833",
+            "sensors": "12"
+        }
+    },
+    {
+        "code": "6SF0244",
+        "project": "Tokyo - Mitshukoshi Nihonbashi",
+        "country": "JP",
+        "address": {
+            "location": "Mitsukoshi, 1-4-1, Nihonbashi Muromachi, Chuo-ku, Tokyo, 103-8001",
+            "latlng": [
+                35.6852,
+                139.7746
+            ]
+        },
+        "managed": "703",
+        "values": {
+            "gateway": "1",
+            "alerts": "5",
+            "managed": "703",
+            "sensors": "12"
+        }
+    },
+    {
+        "code": "6SF0004",
+        "project": "Tokyo - Seibu Ikebukuro",
+        "country": "JP",
+        "address": {
+            "location": "Seibu, 1-28-1, Minami-Ikebukuro, Toshima-ku, Tokyo, 171-8569",
+            "latlng": [
+                35.7328,
+                139.7103
+            ]
+        },
+        "managed": "760",
+        "values": {
+            "gateway": "1",
+            "alerts": "3",
+            "managed": "760",
+            "sensors": "12"
+        }
+    },
+    {
+        "code": "6SF0109",
+        "project": "Tokyo - Shinjuku Isetan - 1F",
+        "country": "JP",
+        "address": {
+            "location": "Isetan, 3-14-1, Shinjuku, Shinjuku-ku, Tokyo, 166-0022",
+            "latlng": [
+                35.6938,
+                139.7030
+            ]
+        },
+        "managed": "771",
+        "values": {
+            "gateway": "1",
+            "alerts": "0",
+            "managed": "771",
+            "sensors": "12"
+        }
+    },
+    {
+        "code": "6SF0108",
+        "project": "Tokyo - Shinjuku Isetan - 2F",
+        "country": "JP",
+        "address": {
+            "location": "Isetan, 3-14-1, Shinjuku, Shinjuku-ku, Tokyo, 166-0022",
+            "latlng": [
+                35.6938,
+                139.7030
+            ]
+        },
+        "managed": "742",
+        "values": {
+            "gateway": "1",
+            "alerts": "4",
+            "managed": "742",
+            "sensors": "12"
+        }
+    },
+    
+    {
+        "code": "6SF0317",
+        "project": "Taichung - Mitsukoshi",
+        "country": "TW",
+        "address": {
+            "location": "Mitsukoshi, 301, Taiwan Avenue, Xitun, Taichung, 40756",
+            "latlng": [
+                "25,0461578919058",
+                "121,515525782287"
+            ]
+        },
+        "managed": "451",
+        "values": {
+            "gateway": "1",
+            "alerts": "3",
+            "managed": "451",
+            "sensors": "3"
+        }
+    },
+    {
+        "code": "6SF0435",
+        "project": "Taichung - Mitsukoshi - Men",
+        "country": "TW",
+        "address": {
+            "location": "Mitsukoshi, 301, Taiwan Avenue, Xitun, Taichung, 40757",
+            "latlng": [
+                "24,1664417105963",
+                "120,651030605631"
+            ]
+        },
+        "managed": "434",
+        "values": {
+            "gateway": "1",
+            "alerts": "0",
+            "managed": "434",
+            "sensors": "12"
+        }
+    },
+    {
+        "code": "6SF0142",
+        "project": "Taipei - 101",
+        "country": "TW",
+        "address": {
+            "location": "Taipei 101, Shop L3. 19, 45, Shihfu Rd, Sinyi, Taipei, 110",
+            "latlng": [
+                "25,0342535735681",
+                "121,564485041936"
+            ]
+        },
+        "managed": "408",
+        "values": {
+            "gateway": "1",
+            "alerts": "3",
+            "managed": "408",
+            "sensors": "12"
+        }
+    },
+    {
+        "code": "6SF0133",
+        "project": "Taipei - Breeze Center",
+        "country": "TW",
+        "address": {
+            "location": "Breeze Center, 39, Fu-Xing South Road, Sec. 1, Songshan, Taipei, 105",
+            "latlng": [
+                "25,0466606094905",
+                "121,546426208441"
+            ]
+        },
+        "managed": "376",
+        "values": {
+            "gateway": "1",
+            "alerts": "2",
+            "managed": "376",
+            "sensors": "12"
+        }
+    },
+    {
+        "code": "6SF0271",
+        "project": "Taipei - Breeze XinYi",
+        "country": "TW",
+        "address": {
+            "location": "Breeze XinYi, Shop 011, 68, Zhongxiao East Road, Xinyi District, Taipei, Section 5",
+            "latlng": [
+                "25,0406998733157",
+                "121,567284432764"
+            ]
+        },
+        "managed": "371",
+        "values": {
+            "gateway": "1",
+            "alerts": "1",
+            "managed": "371",
+            "sensors": "3"
+        }
+    },
+    {
+        "code": "6SF0372",
+        "project": "Taipei - Xinyi Breeze Men",
+        "country": "TW",
+        "address": {
+            "location": "Breeze XinYi, Shop 011, 68, Zhongxiao East Road, Xinyi District, Taipei, Section 6",
+            "latlng": [
+                "25,0407484816896",
+                "121,566962566407"
+            ]
+        },
+        "managed": "410",
+        "values": {
+            "gateway": "1",
+            "alerts": "0",
+            "managed": "410",
+            "sensors": "12"
+        }
+    },
+    {
+        "code": "tbd",
+        "project": "Taipei Diamond Tower",
+        "country": "TW",
+        "address": {
+            "location": "",
+            "latlng": [
+                "25,0416415753209",
+                "121,542568260452"
+            ]
+        },
+        "managed": "470",
+        "values": {
+            "gateway": "1",
+            "alerts": "1",
+            "managed": "470",
+            "sensors": "12"
+        }
+    },
+    {
+        "code": "6SF0447",
+        "project": "Atlanta - Phipps Plaza",
+        "country": "US",
+        "address": {
+            "location": "3500 Peachtree Rd NE, Atlanta, GA 30326, Stati Uniti",
+            "latlng": [
+                "33,8534346649801",
+                "-84,3606973816783"
+            ]
+        },
+        "managed": "550",
+        "values": {
+            "gateway": "1",
+            "alerts": "0",
+            "managed": "550",
+            "sensors": "3"
+        }
+    },
+    {
+        "code": "6SF0313",
+        "project": "Chicago - Neiman Marcus",
+        "country": "US",
+        "address": {
+            "location": "Neiman Marcus, 737, N. Michigan Avenue, Chicago, 60612",
+            "latlng": [
+                "41,8961160276223",
+                "-87,6232890334875"
+            ]
+        },
+        "managed": "550",
+        "values": {
+            "gateway": "1",
+            "alerts": "0",
+            "managed": "550",
+            "sensors": "3"
+        }
+    },
+    {
+        "code": "6SF0034",
+        "project": "Costa Mesa - South Coast Plaza",
+        "country": "US",
+        "address": {
+            "location": "South Coast Plaza, 3333, Bristol Street, Costa Mesa, CA 92626",
+            "latlng": [
+                "33,6911636022358",
+                "-117,887871616207"
+            ]
+        },
+        "managed": "550",
+        "values": {
+            "gateway": "1",
+            "alerts": "2",
+            "managed": "550",
+            "sensors": "3"
+        }
+    }
+]
